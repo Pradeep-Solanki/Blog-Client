@@ -1,0 +1,33 @@
+.content {
+    width: 100%;
+    padding-left: 10px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-cross-lines-neon-background-design-image_405902.jpg);
+}
+
+.Heading {
+    font-size: 13px;
+    line-height: 1px;
+    text-align: justify;
+}
+
+.Heading p {
+    line-height: 0;
+}
+
+.postCard {
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201009/pngtree-cross-lines-neon-background-design-image_405902.jpg);
+    border: 1px solid #d3cede; */
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: -10px;
+    display: flex;
+    padding-bottom: 13px;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    color: aliceblue;
+    &>img,
+    &>p {
+        padding: 0 5px 5px 5px;
+    }
+}
